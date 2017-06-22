@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wieloryb</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body onload="prepareContent()">
+<header class="header-glowny">
+	<div id="menu-glowne">
+		<div class="content flex-opakowanie clearfix">
+			<a href="#" alt="strona główna" class="logo"><img src="grafika/logo.svg" alt="logo"/></a>
+			<nav>
+				<a href="#jak-dziala" alt="Lorem ipsum">Jak to działa</a>
+				<a href="#co-wolisz" alt="Co wolisz">Co wolisz</a>
+				<a href="#oferta" alt="Oferta">Oferta</a>
+				<a href="#o-na" alt="O nas">O nas</a>
+				<a href="#w-liczbach" alt="W liczbach">W liczbach</a>
+				<a href="#kontakt" alt="Kontakt">Kontakt</a>
+			</nav>
+			<button class="mobile-menu" onclick="showMenu()">
+				<img src="grafika/mobile-menu.svg" class="mobile-menu-open" alt="ikona menu mobilnego"/>
+				<img src="grafika/mobile-menu-close.svg" class="mobile-menu-close" alt="ikona menu mobilnego"/>
+			</button>
+		</div>
+	</div>
+	<div class="naglowek-strony paralax">
+		<div class="content flex-opakowanie kolumna flex-spod obraz-header">
+			<h1 class="inline-flex-opakowanie clearfix kolumna"><span class="header-gora">Niemożlwe</span> <span class="header-dol">nie istnieje</span></h1>
+		</div>
+	</div>
+</header>
+<main>
+	<section id="jak-dziala">
+	<div class="content">
+		<header>
+			<h2>Jak to działa</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum. 
+			In tincidunt, lacus at congue pretium, neque nulla blandit diam, quis tempor magna ipsum at velit.</p>
+		</header>
+		<div class="flex-opakowanie clearfix">
+			<div class="flex-opakowanie dodawanie clearfix">
+				<section class="flex-opakowanie">
+					<img src="grafika/bullseye.svg" alt="bulls eye" class="ikona"/>
+					<h3>Twoje cele</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum.</p>
+					<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur lobortis magna, eget bibendum mi sollicitudin at.</p>
+				</section>
+				<div class="znak flex-opakowanie"><img src="grafika/plus-sign.svg" alt="plus sign"/></div>
+				<section class="flex-opakowanie">
+					<img src="grafika/ideas.svg" alt="ideas" class="ikona"/>
+					<h3>Nasze tęgie głowy</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum.</p>
+					<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur lobortis magna, eget bibendum mi sollicitudin at.</p>
+				</section>
+			</div>
+			<div class="znak flex-opakowanie clearfix">
+				<img src="grafika/equal-sign.svg" alt="equal sign"/>
+			</div>
+			<section class="flex-opakowanie clearfix">
+				<img src="grafika/cloudcastle.svg" alt="castle between clouds" class="ikona"/>
+				<h3>Niemożliwe nie istnieje</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum.</p>
+				<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur lobortis magna, eget bibendum mi sollicitudin at.</p>
+			</section>
+		</div>
+	</div>
+	</section>
+	<section id="co-wolisz">
+	<div class="content">
+		<header>
+			<h2><span class="header-gora">Co</span> <span class="header-dol">wolisz?</span></h2>
+		</header>
+		<div class="flex-opakowanie flex-3kol flex-dobokow clearfix">
+			<section>
+				<header class="flex-opakowanie flex-srodek wyznaczac">
+					<h3 class="flex-opakowanie flex-srodek boks-paski"><span class="flex-opakowanie kolumna flex-srodek"><span>Wyznaczać</span> <span>drogę</span></span></h3>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum. 
+				In tincidunt, lacus at congue pretium, neque nulla blandit diam, quis tempor magna ipsum at velit. 
+				Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+			</section>
+			<div class="flex-opakowanie kolumna">
+				<span class="czy">czy</span>
+				<p class="haslo flex-opakowanie kolumna">
+					<span>Czego nie</span> <span>wybierzesz</span><br/> <span class="czarny duze-litery">pomożemy</span><br/> <span>to</span> <span>osiągnąć</span>
+				</p>
+			</div>
+			<section>
+				<header class="flex-opakowanie flex-srodek podazac">
+					<h3 class="flex-opakowanie flex-srodek boks-paski"><span class="flex-opakowanie kolumna flex-srodek"><span>Iść za</span> <span>kimś</span></span></h3>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum. 
+				In tincidunt, lacus at congue pretium, neque nulla blandit diam, quis tempor magna ipsum at velit. 
+				Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+			</section>	
+		</div>
+	</div>
+	<div class="lewy-kolor"></div>
+	<div class="prawy-kolor"></div>
+	</section>
+	<section id="oferta" class="paralax">
+		<div class="content flex-opakowanie kolumna">
+		<header>
+			<h2>Nasza pełna<br/> oferta</h2>
+			<div class="flex-opakowanie oferta-menu flex-pomiedzy clearfix">
+				<button class="category-1" onclick="showCategory()">Kategoria 1</button>
+				<button class="category-2" onclick="showCategory()">Kategoria 2</button>
+				<button class="category-3" onclick="showCategory()">Kategoria 3</button>
+			</div>
+		</header>
+		<div class="flex-opakowanie flex-6kol clearfix">
+			<section class="category-1 flex-opakowanie">
+				<img src="./grafika/category-1a.svg" alt="category 1a"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-2 flex-opakowanie"> 
+				<img src="./grafika/category-2a.svg" alt="category 2a"/>
+				<div> 
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+				nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-3 flex-opakowanie">
+				<img src="./grafika/category-3a.svg" alt="category 3a"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-1 flex-opakowanie">
+				<img src="./grafika/category-1b.svg" alt="category 1b"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-2 flex-opakowanie">
+				<img src="./grafika/category-2b.svg" alt="category 2b"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-3 flex-opakowanie">
+				<img src="./grafika/category-3b.svg" alt="category 3b"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-1 visible-content flex-opakowanie">
+				<img src="./grafika/category-1c.svg" alt="category 1c"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-2 visible-content flex-opakowanie">
+				<img src="./grafika/category-2c.svg" alt="category 2c"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-3 visible-content flex-opakowanie">
+				<img src="./grafika/category-3c.svg" alt="category 3c"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-1 visible-content flex-opakowanie">
+				<img src="./grafika/category-1d.svg" alt="category 1d"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-2 visible-content flex-opakowanie">
+				<img src="./grafika/category-2d.svg" alt="category 2d"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+			<section class="category-3 visible-content flex-opakowanie">
+				<img src="./grafika/category-3d.svg" alt="category 3d"/>
+				<div>
+					<h3>Lorem ipsum</h3>
+					<p>Aliquam dictum nisl sit amet accumsan dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+					<p class="visible-content">Sed nec augue ac dui sodales dignissim. Cras at mi at felis lobortis congue. Cras vel odio diam. No mea harum 
+					nominati accommodare, sed illum assentior vituperatoribus ad.</p>
+					<button class="prawo wiecej" onclick="showHide()">więcej</button>
+				</div>
+			</section>
+		</div>
+		<button class="tlo-ptak wiecej-calosc" onclick="showHideAll()"><span class="button-glowny">więcej</span></button>
+		</div>
+		<footer id="write-us">
+			<div class="content">
+				<h2>Nie znalazłeś tego czego szukałeś?</h2>
+				<section class="flex-opakowanie clearfix">
+					<p>Opisz nam to czego szukasz, <em>spróbujemy pomóc!</em></p>
+					<a href="#kontakt" class="bg-stripes"><span class="button-glowny">napisz</span></a>
+				</section>
+			</div>
+		</footer>
+	</section>
+	<section id="o-nas">
+	<div class="content">
+		<header>
+			<h2>O nas</h2>
+		</header>
+		<p class="opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhon cuson, egestas massa non, dapibus ipsum. 
+		In tincidunt, lacus at congue pretium, neque nulla blandit diam, quis tempor magna ipsum at velit. 
+		Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+		<div class="flex-opakowanie flex-3kol flex-dobokow clearfix">
+			<section class="flex-opakowanie kolumna flex-srodek">
+				<div class="tlo-gosciu">
+				<img src="grafika/osoba1.png" alt="osoba"/>
+				<div class="boks-paski">
+				<header class="osoba-dane">
+					<h3>Janek Kowalski</h3>
+					<p>Mózg Operacji</p>
+					<p>dyrektor artystyczny</p>
+				</header>
+				</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhon cuson, egestas massa non, dapibus ipsum. </p>
+			</section>
+			<section class="flex-opakowanie kolumna flex-srodek">
+				<div class="tlo-gosciu">
+				<img src="grafika/osoba2.png"/>
+				<div class="boks-paski">
+				<header class="osoba-dane" alt="osoba">
+					<h3>Janek Kowalski</h3>
+					<p>Mózg Operacji</p>
+					<p>dyrektor artystyczny</p>
+				</header>
+				</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhon cuson, egestas massa non, dapibus ipsum. </p>
+			</section>
+			<section class="flex-opakowanie kolumna flex-srodek">
+				<div class="tlo-gosciu">
+				<img src="grafika/osoba3.png" alt="osoba"/>
+				<div class="boks-paski">
+				<header class="osoba-dane">
+					<h3>Janek Kowalski</h3>
+					<p>Mózg Operacji</p>
+					<p>dyrektor artystyczny</p>
+				</header>
+				</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum. </p>
+			</section>
+		</div>
+	</div>
+	</section>
+	<section id="w-liczbach" class="paralax">
+	<div class="content">
+		<header>
+		<h2>Niemożliwe w liczbach</h2>
+		</header>
+		<div class="flex-opakowanie flex-4kol clearfix">
+			<p class="flex-opakowanie kolumna flex-srodek"><span class="kolko">128</span> <span>Realizacji</span></p>
+			<p class="flex-opakowanie kolumna flex-srodek"><span class="kolko">77</span> <span>Startupów</span></p>
+			<p class="flex-opakowanie kolumna flex-srodek"><span class="kolko">101</span> <span>Audytów</span></p>
+			<p class="flex-opakowanie kolumna flex-srodek"><span class="kolko">19</span> <span>Kreatywnych ludzi</span></p>
+		</div>
+	</div>
+	</section>
+	<section id="wycena">
+		<div class="content">
+			<header>
+				<h2>Darmowa wycena</h2>
+				<p>Aenean faucibus massa rhoncus, egestas massa non, dapibus ipsum. In quis tincidunt, lacus at congue pretium, neque nulla blandit diam
+				tempor.</p>
+			</header>
+			<section class="flex-opakowanie clearfix">
+				<p>Zostaw swój numer, <em>oddzwonimy:</em></p>
+				<form class="flex-opakowanie clearfix">
+					<div class="flex-opakowanie clearfix">
+						<input type="tel" value="+48" maxlength="3" size="3" required>
+						<input type="tel" maxlength="3" size="3" pattern="[0-9]{3}" oninput="nextTelNumber()" required/>
+						<input type="tel" maxlength="3" size="3" pattern="[0-9]{3}" oninput="nextTelNumber()" required/>
+						<input type="tel" maxlength="3" size="3" pattern="[0-9]+" required/>
+					</div>
+					<span class="bg-stripes clearfix"><input class="button-glowny" type="submit" value="wyślij"></span>			
+				</form>
+			</section>
+		</div>
+	</section>
+	<section id="kontakt">
+<div class="content">
+	<header>
+	<h2>Skontaktuj się z nami</h2>
+	</header>
+	<div class="flex-opakowanie flex-2kol clearfix">
+		<form autocomplete="on" method="post" action="sendingmail.php" class="flex-opakowanie kolumna flex-srodek clearfix">
+			<label for="e-mail">Adres e-mail:</label>
+			<input type="email" id="e-mail"/>
+			<label for="tekst">Tekst:</label>
+			<textarea id="tekst"></textarea>
+			<div class="tlo-ptak"><input type="submit" value="Wyślij" class="button-glowny"/></div>
+		</form>
+		<section class="dane-kontaktowe">
+			<section>
+				<header>Adres:</header>
+				<a href="" alt="kliknij by zobaczyć na mapie">ul. Podniebna 13, Dalekowchmurach</a>
+			</section>
+			<section>
+				<header>Telefon:</header>
+				<a href="tel:123456789" alt="kliknij by zadzwonić">123-456-789</a>
+			</section>
+			<section class="social-media">
+				<header>Social media:</header>
+				<ul>
+					<li><a href="https://plus.google.com/" alt="google +"><img src="grafika/googleplus-icon.svg" alt="google+"/></a></li>
+					<li><a href="https://www.facebook.com/" alt="facebook"><img src="grafika/facebook-icon.svg" alt="facebook"/></a></li>
+					<li><a href="https://twitter.com" alt="tweeter"><img src="grafika/tweeter-icon.svg" alt="tweeter"/></a></li>
+				</ul>			
+			</section>
+		</section>
+	</div>
+</div>
+</section>
+</main>
+<footer>
+
+</footer>
+
+<script type="text/javascript" src="funkcje.js"></script>
+
+</body>
+</html>
