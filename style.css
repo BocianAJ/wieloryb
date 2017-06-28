@@ -323,7 +323,7 @@
 		position:relative;
 	}
 	@media (max-width:1050px) and (min-width:950px) {
-		.paralax {
+		div.naglowek-strony {
 			background-size: 100% auto; /* fallback for ipad and iphone */
 		}
 	}
