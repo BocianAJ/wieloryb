@@ -160,7 +160,7 @@
 			background-attachment: fixed;
 			background-repeat: no-repeat;
 			background-position:center center;
-			background-size: auto 100vw;
+			background-size: 100vmax auto;
 		}
 		.tlo-ptak {
 			background-image:url('grafika/bg-stripes.png');
