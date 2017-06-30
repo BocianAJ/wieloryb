@@ -156,6 +156,7 @@
 			padding:3em 1em;	
 		}
 		.paralax {
+			background-attachment: scroll;
 			background-attachment: fixed;
 			background-repeat: no-repeat;
 			background-position:center center;
