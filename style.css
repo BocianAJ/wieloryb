@@ -162,11 +162,6 @@
 			background-position:center center;
 			background-size: cover;
 		}
-		@media (max-width:1024px) {
-			.paralax {
-				background-size: auto 100%; /* fallback for ipad and iphone */
-			}
-		}
 		.tlo-ptak {
 			background-image:url('grafika/bg-stripes.png');
 			background-color:transparent !important;
@@ -322,11 +317,6 @@
 		-webkit-box-sizing: content-box;
 		        box-sizing: content-box;
 		position:relative;
-	}
-	@media (max-width:1050px) and (min-width:950px) {
-		div.naglowek-strony {
-			background-size: 100% auto; /* fallback for ipad and iphone */
-		}
 	}
 	h1 {
 		-webkit-box-align: start;
