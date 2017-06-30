@@ -158,9 +158,9 @@
 		.paralax {
 			background-attachment: scroll;
 			background-attachment: fixed;
-			background-repeat: repeat;
+			background-repeat: no-repeat;
 			background-position:center top;
-			background-size: 100vmax auto;
+			background-size: cover;
 		}
 		.tlo-ptak {
 			background-image:url('grafika/bg-stripes.png');
