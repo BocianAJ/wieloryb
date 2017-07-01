@@ -156,6 +156,14 @@
 			padding:3em 1em;	
 		}
 		.paralax {
+			position:relative;
+			background:transparent;
+		}
+		.paralax:after {
+			position:absolute;
+			top:0;
+			left:0;
+			background-attachment: scroll;
 			background-attachment: fixed;
 			background-repeat: no-repeat;
 			background-position:center 20%;
@@ -297,11 +305,13 @@
 		display:-ms-flexbox;
 		display:flex;
 		display: -webkit-flex;
-		background-image: url('grafika/header.jpg');
 		height: 100vh;
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
 		        align-items: center;
+	}
+	div.naglowek-strony:after {
+		background-image: url('grafika/header.jpg');
 	}
 	.obraz-header {
 		background-image: url('grafika/obraz-header.png');
