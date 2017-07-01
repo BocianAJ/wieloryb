@@ -166,7 +166,7 @@
 			background-attachment: scroll;
 			background-attachment: fixed;
 			background-repeat: no-repeat;
-			background-position:center top;
+			background-position:center 20%;
 			background-size: cover;
 		}
 		.tlo-ptak {
