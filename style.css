@@ -155,6 +155,9 @@
 			max-width:960px;
 			padding:3em 1em;	
 		}
+		.paralax {
+			background-color:transparent;
+		}
 		.paralax:after{
 		      content:"";
 		      position:fixed; /* stretch a fixed position to the whole screen */
