@@ -298,7 +298,6 @@
 		margin-bottom: 0;
 	}
 	header.header-glowny {
-		background-color:#fff;
 		padding: 0;
 	}
 
@@ -843,6 +842,8 @@
 		clear:both;
 		color:#000;
 		background-color:#fff;
+	}
+	#oferta.paralax:after {
 		background-image:url('grafika/niebo.jpg');
 	}
 	#oferta img {
@@ -1121,6 +1122,8 @@
 	#w-liczbach {
 		color:#000;
 		background-color:#fff;
+	}
+	#w-liczbach.paralax:after {
 		background-image: url("grafika/niebo.jpg");
 	}
 	#w-liczbach .flex-opakowanie > p {
