@@ -161,14 +161,6 @@
 			background-repeat: no-repeat;
 			background-position: center 20%;
 			background-size: cover;
-			position: fixed;
-      			top: 0px;
-		        bottom: 0px;
-		        left: 0px;
-		        right: 0px;
-		        z-index: -1;
-		        -webkit-transform: translateZ(0);
-		        pointer-events: none;
 		}
 		.tlo-ptak {
 			background-image:url('grafika/bg-stripes.png');
