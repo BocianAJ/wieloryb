@@ -1292,11 +1292,13 @@
 		min-height:3em;
 		margin-bottom:1em;
 		width:100%;
+		border:none;
 	}
 	#kontakt textarea {
 		margin-bottom: 1em;
 		min-height: 10em;
 		width:100%;
+		border:none;
 	}
 	#kontakt form label, .dane-kontaktowe header {
 		color:#000;
