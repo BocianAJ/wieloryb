@@ -991,7 +991,7 @@
 	.tlo-gosciu  {
 		position:relative;
 		margin:1em 0 2em;
-		height:100%;
+		/* height:100%; */
 	}
 	#o-nas img  {
 		position:relative;
