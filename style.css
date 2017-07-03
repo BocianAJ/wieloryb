@@ -292,8 +292,8 @@
 		}
 	}
 	#menu-glowne a:hover, #menu-glowne a:focus, #menu-glowne a:active {
-		color: #8746ff;
 		-webkit-appearance: none; /* zeroing the look on ios */
+		color: #8746ff;
 	}
 	#menu-glowne .logo {
 		margin-bottom: 0;
@@ -829,12 +829,15 @@
 		color: #fff;
 	}
 	#oferta .oferta-menu button:first-child:hover, #oferta .oferta-menu button:first-child:focus, #oferta .oferta-menu button:first-child:active  {
+		-webkit-appearance: none; /* zeroing the look on ios */
 		background-color: rgb(55, 196, 238);
 	}
 	#oferta .oferta-menu button:nth-child(2):hover, #oferta .oferta-menu button:nth-child(2):focus, #oferta .oferta-menu button:nth-child(2):active  {
+		-webkit-appearance: none; /* zeroing the look on ios */	
 		background-color: rgb(219, 112, 225);
 	}
 	#oferta .oferta-menu button:last-child:hover, #oferta .oferta-menu button:last-child:focus, #oferta .oferta-menu button:last-child:active  {
+		-webkit-appearance: none; /* zeroing the look on ios */
 		background-color: rgb(129, 64, 251);
 	}
 	#oferta {
@@ -852,6 +855,7 @@
 		text-align:left;
 	}
 	#oferta button:hover, #oferta button:focus, #oferta button:active {
+		-webkit-appearance: none; /* zeroing the look on ios */
 		background-color:#000;
 		color:#fff;
 		-webkit-transition: color 0.7s ease-out;
