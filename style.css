@@ -82,13 +82,13 @@
 			}
 		}
 	/* 1.2 Flex */
-		/* .flex-opakowanie {
+		.flex-opakowanie {
 			display:-webkit-box;
 			display:-ms-flexbox;
 			display:flex;
 			-ms-flex-wrap:nowrap;
 			    flex-wrap:nowrap;
-		} */
+		}
 		.inline-flex-opakowanie {
 			display:-webkit-inline-box;
 			display:-ms-inline-flexbox;
@@ -1001,7 +1001,7 @@
 		display: block;
 	}
 	#o-nas .boks-paski  {
-		position:absolute;
+		/*position:absolute;*/
 		z-index: 1;
 		top: 12em;
 		width: 100%;
