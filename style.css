@@ -293,6 +293,7 @@
 	}
 	#menu-glowne a:hover, #menu-glowne a:focus, #menu-glowne a:active {
 		color: #8746ff;
+		-webkit-appearance: none; /* zeroing the look on ios */
 	}
 	#menu-glowne .logo {
 		margin-bottom: 0;
