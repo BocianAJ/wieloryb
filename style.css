@@ -211,7 +211,7 @@
 			float:right;
 			display:inline-block;
 		}
-		.button-glowny {
+		.button-glowny, input[type="send"] {
 			font-size:1.2em;
 			line-height:1em;
 			text-align:center;
