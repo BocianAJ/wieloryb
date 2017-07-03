@@ -58,6 +58,9 @@
 		main > section {
 			padding:0;
 		}
+		form input {
+			-webkit-appearance: none; /* zeroing the look on ios */
+		}
 		button:hover, button:active, button:focus, input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
 			cursor:pointer;
 		}
@@ -212,7 +215,6 @@
 			display:inline-block;
 		}
 		.button-glowny, input[type="submit"].button-glowny {
-			-webkit-appearance: none; /* zeroing the look on ios */
 			font-size:1.2em;
 			line-height:1em;
 			text-align:center;
