@@ -220,11 +220,12 @@
 			background-color:#000;
 			padding:0.5em 1.5em;
 			border: solid 1px #000;
-			border-radius: 2px;
-			display: inline-block;
-			position: relative;
-			min-width: 3.5em;
-			z-index: 3;
+			border-radius:0;
+			border-radius:2px;
+			display:inline-block;
+			position:relative;
+			min-width:3.5em;
+			z-index:3;
 			-webkit-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 			-webkit-box-sizing: initial;
