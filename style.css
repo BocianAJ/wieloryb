@@ -156,20 +156,15 @@
 			padding:3em 1em;	
 		}
 		.paralax {
-			background-color:transparent;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: center 20%;
+			background-size: cover;
 		}
-		.paralax:after{
-		      content:"";
-		      position:fixed; /* stretch a fixed position to the whole screen */
-		      top:0;
-		      height:100vh; /* fix for mobile browser address bar appearing disappearing */
-		      left:0;
-		      right:0;
-		      z-index:-1; /* needed to keep in the background */
-		      -webkit-background-size: cover;
-		      -moz-background-size: cover;
-		      -o-background-size: cover;
-		      background-size: cover;
+		@media (max-width:1024px) {
+			.paralax {
+				background-attachment: scroll;
+			}
 		}
 		.tlo-ptak {
 			background-image:url('grafika/bg-stripes.png');
@@ -310,8 +305,6 @@
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
 		        align-items: center;
-	}
-	div.naglowek-strony:after {
 		background-image: url('grafika/header.jpg');
 	}
 	.obraz-header {
@@ -842,8 +835,6 @@
 		clear:both;
 		color:#000;
 		background-color:#fff;
-	}
-	#oferta.paralax:after {
 		background-image:url('grafika/niebo.jpg');
 	}
 	#oferta img {
@@ -1122,8 +1113,6 @@
 	#w-liczbach {
 		color:#000;
 		background-color:#fff;
-	}
-	#w-liczbach.paralax:after {
 		background-image: url("grafika/niebo.jpg");
 	}
 	#w-liczbach .flex-opakowanie > p {
