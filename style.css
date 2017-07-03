@@ -679,9 +679,9 @@
 	}
 	.boks-paski {
 		background-image:url('grafika/boks-paski.svg');
-		background-size: 100% 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: left center;
 	}
 	#co-wolisz  h3 {
 		background-color: transparent;
@@ -1014,7 +1014,7 @@
 		text-transform:uppercase;
 		background-color:#000;
 		text-align:left;
-		margin-left:50px;
+		margin-left:3em;
 	}
 	.osoba-dane h3 {
 		text-align:left;
@@ -1037,9 +1037,6 @@
 	@media (max-width:650px) {
 		.tlo-gosciu  {
 			margin-bottom: 4em;
-		}
-		.osoba-dane {
-			margin-left:3em;
 		}
 	}
 	@media (max-width:600px) {
