@@ -1001,11 +1001,10 @@
 		display: block;
 	}
 	#o-nas .boks-paski  {
-		/*position:absolute;*/
+		position:absolute;
 		z-index: 1;
 		top: 12em;
 		width: 100%;
-		height: auto;
 	}
 	#o-nas p.opis {
 		max-width:650px;
