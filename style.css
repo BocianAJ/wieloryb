@@ -120,7 +120,7 @@
 			        flex-flow:column;
 		}
 		.clearfix > * {
-			/* float:left; Flex fallback for older browsers */
+			float:left; /* Flex fallback for older browsers */
 		}
 		.clearfix {
 			overflow:hidden;
