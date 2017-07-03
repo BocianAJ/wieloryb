@@ -119,12 +119,12 @@
 			    -ms-flex-flow:column;
 			        flex-flow:column;
 		}
-		/* .clearfix > * {
-			float:left; Flex fallback for older browsers
+		.clearfix > * {
+			/* float:left; Flex fallback for older browsers */
 		}
 		.clearfix {
 			overflow:hidden;
-		} */
+		}
 		.flex-3kol, .flex-6kol {
 			-ms-flex-wrap:wrap;
 			    flex-wrap:wrap;
