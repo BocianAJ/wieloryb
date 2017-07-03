@@ -119,9 +119,9 @@
 			    -ms-flex-flow:column;
 			        flex-flow:column;
 		}
-		.clearfix > * {
+		/* .clearfix > * {
 			float:left; /* Flex fallback for older browsers */
-		}
+		} */
 		.clearfix {
 			overflow:hidden;
 		}
