@@ -60,6 +60,7 @@
 		}
 		form input, form textarea {
 			-webkit-appearance: none; /* zeroing the look on ios */
+			border-radius:0;
 		}
 		button:hover, button:active, button:focus, input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
 			cursor:pointer;
@@ -1293,14 +1294,12 @@
 		margin-bottom:1em;
 		width:100%;
 		border:none;
-		border-radius:0;
 	}
 	#kontakt textarea {
 		margin-bottom: 1em;
 		min-height: 10em;
 		width:100%;
 		border:none;
-		border-radius:0;
 	}
 	#kontakt form label, .dane-kontaktowe header {
 		color:#000;
